@@ -12,7 +12,6 @@ const OnBoarding = () => {
         <Image
           style={{
             width: "100%",
-            backgroundColor: color.background,
           }}
           source={require("../../assets/appicon.png")}
         />
@@ -70,5 +69,10 @@ const styles = StyleSheet.create({
     width: 250,
     flex: 0.1,
     alignSelf: 'center',
+  },
+  textContainer1: {
+    flex: 0.1,
+    margin: 10,
+    padding: 10,
   },
 });

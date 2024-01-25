@@ -21,4 +21,5 @@ export default colors = {
   runTimeColor: "#121953",
   red: "#EF5350",
   green: "#70e000",
+  yellow: '#D68910',
   };
