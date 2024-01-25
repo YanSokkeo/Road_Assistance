@@ -225,7 +225,6 @@ const styles = StyleSheet.create({
   textimg: {
     color: color.white,
     fontSize: 16,
-    fontFamily: "Medium",
     textAlign: "center",
   },
   scrollViewContentContainer: {
