@@ -48,7 +48,7 @@ import {
   
   const styles = StyleSheet.create({
     container: {
-      width: 342,
+      width: '90%',
       height: 68,
       backgroundColor: color.sliver,
       justifyContent: 'space-between',

@@ -5,9 +5,9 @@ import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import OnBoarding from "../Screens/OnBoarding";
 import Home from "../Screens/Home";
 import Maping from "../Screens/Maping";
-import LeaderBoard from "../Screens/LeaderBoard";
 import Profile from "../Screens/Profile";
 import TabNavigation from "./TabNavigation";
+import Search from "../Screens/Search";
 
 const StackNavigator = () => {
   const Stack = createNativeStackNavigator();
@@ -23,7 +23,7 @@ const StackNavigator = () => {
         <Stack.Screen name="tabNavigation" component={TabNavigation} />
         <Stack.Screen name="home" component={Home}/>
         <Stack.Screen name="map" component={Maping} />
-        <Stack.Screen name="leaderBoard" component={LeaderBoard}/>
+        <Stack.Screen name="search" component={Search}/>
         <Stack.Screen name="profile" component={Profile} />
       </Stack.Navigator>
     </NavigationContainer>

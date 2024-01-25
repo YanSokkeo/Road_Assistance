@@ -4,7 +4,7 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import color from "../../color";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import Home from "../Screens/Home";
-import LeaderBoard from "../Screens/LeaderBoard";
+import Search from "../Screens/Search";
 import Profile from "../Screens/Profile";
 import Maping from "../Screens/Maping";
 
@@ -19,9 +19,9 @@ const TabNavigation = () => {
           if (route.name === "home") {
             iconName = focused ? "home" : "home-outline";
           } else if (route.name === "map") {
-            iconName = focused ? "reader" : "reader-outline";
-          } else if (route.name === "leaderBoard") {
-            iconName = focused ? "cellular" : "cellular-outline";
+            iconName = focused ? "map" : "map-outline";
+          } else if (route.name === "search") {
+            iconName = focused ? "search" : "search-outline";
           } else if (route.name === "profile") {
             iconName = focused ? "person-circle" : "person-circle-outline";
           }
@@ -54,8 +54,8 @@ const TabNavigation = () => {
         options={{ headerShown: false }}
       />
       <Tab.Screen
-        name="leaderBoard"
-        component={LeaderBoard}
+        name="search"
+        component={Search}
         options={{ headerShown: false }}
       />
       <Tab.Screen
